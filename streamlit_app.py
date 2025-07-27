@@ -80,7 +80,7 @@ if submitted:
 
     x_test_pred = torch.tensor(label_dfx.values,dtype = torch.float32)
     
-    with open("C:/Users/Hp/OneDrive/Desktop/Depressionmodel/Depressionmodel1.pkl", "rb") as f:
+    with open("Depressionmodel1.pkl", "rb") as f:
         loaded_model = pickle.load(f)
 
 
